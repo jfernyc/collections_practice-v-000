@@ -49,7 +49,7 @@ def add_s(array)
   
   array.each_with_index.collect{|element,index| element != 'feet' element +'s'}
 
- end 
+
 end 
 
 
