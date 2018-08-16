@@ -46,8 +46,9 @@ end
 #require "pry"
 def add_s(array)
   if element == "feet" -="s"
-  array.each_with_index.collect{|element,index| element + "s"}
+   else array.each_with_index.collect{|element,index| element + "s"}
   #binding.pry 
+ end 
 end 
 
 
