@@ -43,12 +43,13 @@ def sum_array(array)
   array.inject { |sum, n| sum + n } 
   
 end 
-#require "pry"
+
+
 def add_s(array)
   if element == "feet" -="s"
     retur 
    else array.each_with_index.collect{|element,index| element + "s"}
-  #binding.pry 
+
  end 
 end 
 
