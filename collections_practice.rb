@@ -45,7 +45,7 @@ def sum_array(array)
 end 
 #require "pry"
 def add_s(array)
-  if element == "feet" -"s"
+  if element == "feet" -="s"
   array.each_with_index.collect{|element,index| element + "s"}
   #binding.pry 
 end 
